@@ -3,4 +3,7 @@ JSGame
 
 JSGame
 
-01d797b55dc19ed8703fbdae2ea4a4a99dc9dffb
+After pulling the sources form GitHub you should do 
+
+npm install -G nodemon
+npm install

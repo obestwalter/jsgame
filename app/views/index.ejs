@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Avira JS Game</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=8" />
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <link rel='stylesheet' href='/stylesheets/index.css' />
+    <link rel="shortcut icon" href="/favicon.png" />
+    <link rel="apple-itouch-icon" href="/favicon.png" />
+    <script type="text/javascript" src="/javascripts/prototype.js"></script>
+  </head>
+  <body class="main">
+    <div class="header">
+      <h1>Avira JS Game</h1>
+    </div>
+    <div class="content">
+      <div class="main rounded-corners">
+        You are on: <a href="<%= domain %>"><%= domain %></a><br/>
+        But you could go here: <a href="<%= ___all_the_routes.example.url({ ':id': 1 }) %>"><%= ___all_the_routes.example.url({ ':id': 1 }) %></a><br/>
+        Or here: <a href="<%= ___all_the_routes.example.url({ ':id': 'some_text' }) %>"><%= ___all_the_routes.example.url({ ':id': 'some_text' }) %></a><br/>
+        Back home: <a href="<%= ___all_the_routes.root.url() %>"><%= ___all_the_routes.root.url() %></a><br/>
+      </div>
+    </div>
+    <div class="footer">
+      <% include includes/contact_footer %>
+    </div>
+    <% include includes/google_analytics %>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+
+
+language: node_js
+node_js: 0.8.6
+
+services: 
+  - mongodb
+
+notifications:
+  email:
+    recipients:
+      - mark.nijhof@cre8ivethought.com
+    on_success: change 
+    on_failure: always 
+
+before_script:
+  - "export DISPLAY=:99.0"
+  - "sh -e /etc/init.d/xvfb start"
+
+script:
+  - "./deployment/deploy.sh run-me"
+
