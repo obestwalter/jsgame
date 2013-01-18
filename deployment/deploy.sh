@@ -8,8 +8,8 @@ fi
 
 heroku_api_key="01d797b55dc19ed8703fbdae2ea4a4a99dc9dffb"
 
-environment_names_for_test="inqob-test"
-environment_names_for_production="inqob-production"
+environment_names_for_test="avira-jsgame-test"
+environment_names_for_production="avira-jsgame"
 
 git_remote_name_for_test="avira-jsgame-test"
 git_remote_name_for_production="avira-jsgame"

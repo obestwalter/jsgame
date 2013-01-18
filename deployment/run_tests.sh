@@ -30,7 +30,7 @@ run_test() {
   echo "Running All Features ~@skip against test"
   wait_for_heroku_to_wake_up test
 
-  export FULL_URL=http://avira-jsgame-test.heroku.com
+  export FULL_URL=http://avira-jsgame-test.herokuapp.com
   NODE_ENV=test ./node_modules/.bin/cucumber.js tests/cucumber/features --tags ~@skip
   features=$?
   exit $features
@@ -40,7 +40,7 @@ run_production() {
   echo "Running @verify-against-production ~@clean-mongo-db ~@skip against production"
   wait_for_heroku_to_wake_up production
 
-  export FULL_URL=http://avira-jsgame.heroku.com
+  export FULL_URL=http://avira-jsgame.herokuapp.com
   NODE_ENV=production ./node_modules/.bin/cucumber.js tests/cucumber/features --tags @verify-against-production --tags ~@clean-mongo-db --tags ~@skip
   features=$?
   exit $features
