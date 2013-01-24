@@ -45,6 +45,7 @@ exports.init = (function() {
     // Exmapels
     // routes.route('post',    'login_post',                   '/login',                                                         login.login)
 
+    routes.route('get',     'other_route',                  '/other_route/:id',                                               index.example)
     routes.route('get',     'example',                      '/example/:id',                                                   index.example)
     routes.route('get',     'root',                         '/',                                                              index.index)
     routes.route('get',     'game',                         '/game',                                                          index.game)
