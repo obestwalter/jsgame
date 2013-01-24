@@ -47,6 +47,7 @@ exports.init = (function() {
 
     routes.route('get',     'example',                      '/example/:id',                                                   index.example)
     routes.route('get',     'root',                         '/',                                                              index.index)
+    routes.route('get',     'game',                         '/game',                                                          index.game)
 
     return routes
   }
