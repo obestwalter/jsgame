@@ -11,3 +11,4 @@ node_modules
 npm-debug.log
 .monitor
 app/public/uploads/*
+.idea/*
