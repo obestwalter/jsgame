@@ -6,7 +6,7 @@ then
   exit 1
 fi
 
-heroku_api_key="01d797b55dc19ed8703fbdae2ea4a4a99dc9dffb"
+heroku_api_key="<REPLACED>"
 
 environment_names_for_test="avira-jsgame-test"
 environment_names_for_production="avira-jsgame"
