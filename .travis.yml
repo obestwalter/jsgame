@@ -9,17 +9,7 @@ services:
 notifications:
   email:
     recipients:
-      - mark.nijhof@avira.com
-      - peter.kuenst@avira.com
-      - andreas.arnegger@avira.com
-      - markus.hinderhofer@avira.com
-      - markus.leutner@avira.com
-      - johannes.schuster@avira.com
-      - oana.stoica@avira.com
-      - adrian.vlad@avira.com
-      - gerhard.herbert@avira.com
-      - benjamin.beermann@avira.com
-      - sebastian.faller@avira.com
+      - exampleuser@example.com
     on_success: change 
     on_failure: always 
 
