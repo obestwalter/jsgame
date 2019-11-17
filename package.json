@@ -1,7 +1,7 @@
 {
     "name": "avira-jsgame",
     "version": "0.0.1",
-    "author": "Mark Nijhof <mark.nijhof@avira.com>",
+    "author": "Mark Nijhof",
     "description": "Avira JS Game",
     "engines": {
       "node": "0.8.8",
